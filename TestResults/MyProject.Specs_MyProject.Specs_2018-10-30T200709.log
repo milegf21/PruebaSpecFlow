@@ -1,0 +1,101 @@
+﻿2018-10-30T20:07:08.6700854-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-10-30T20:07:08.7010941-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-10-30T20:07:08.7010941-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Mileidy Franco\source\repos\MyProject.Specs\MyProject.Specs\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-30T20:07:09.2202955-05:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-30T20:07:09.2212965-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Mileidy Franco\source\repos\MyProject.Specs\MyProject.Specs\bin\Debug\MyProject.Specs.dll
+2018-10-30T20:07:09.2212965-05:00;VSTestExecutionThread;Info;Profile: MyProject.Specs
+2018-10-30T20:07:18.5669542-05:00;Thread#15;Info;starting test run
+2018-10-30T20:07:18.5979575-05:00;Thread#15;Info;Discovering target: Default
+2018-10-30T20:07:18.5999587-05:00;Thread#15;Info;Discovering tests from assembly: C:\Users\Mileidy Franco\source\repos\MyProject.Specs\MyProject.Specs\bin\Debug\MyProject.Specs.dll
+Appdomain Disposed
+Test Suite Dump
+#0: MyProject.Specs/MyProject.Specs - 
+#1: Default - 
+#2: MyProject.Specs - 
+#3: Calculator - 
+#4: Add two numbers - TestAssembly:MyProject.Specs/Feature:Calculator/Scenario:Add+two+numbers
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for MyProject.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have entered 5 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(5) (0.0s)
+Thread#0:B:And I have entered 30 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(30) (0.0s)
+Thread#0:B:When I press add
+Thread#0:T:done: CalculatorSteps.WhenIPressAdd() (0.0s)
+Thread#0:B:Then the result should be 70 on the screen
+Thread#0:T:error: Error de Assert.AreEqual. Se esperaba <70>, pero es <0>. 
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 2.3421466 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given I have entered 5 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(5) (0.0s)
+Thread#0:B:And I have entered 30 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(30) (0.0s)
+Thread#0:B:When I press add
+Thread#0:T:done: CalculatorSteps.WhenIPressAdd() (0.0s)
+Thread#0:B:Then the result should be 70 on the screen
+Thread#0:T:error: Error de Assert.AreEqual. Se esperaba <70>, pero es <0>. 
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0140061 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given I have entered 5 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(5) (0.0s)
+Thread#0:B:And I have entered 30 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(30) (0.0s)
+Thread#0:B:When I press add
+Thread#0:T:done: CalculatorSteps.WhenIPressAdd() (0.0s)
+Thread#0:B:Then the result should be 70 on the screen
+Thread#0:T:error: Error de Assert.AreEqual. Se esperaba <70>, pero es <0>. 
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0160122 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2018-10-30T20:07:21.8624415-05:00;Thread#15;Info;test run finished
+2018-10-30T20:07:21.8644386-05:00;Thread#15;Info;publishing test results
+2018-10-30T20:07:21.9734757-05:00;Thread#15;Info;test results published
+2018-10-30T20:07:21.9734757-05:00;Thread#15;Info;generating reports
+2018-10-30T20:07:22.0124917-05:00;Thread#15;Info;creating 1 report(s)
+2018-10-30T20:07:22.0124917-05:00;Thread#15;Info;generate Report ReportTemplate.cshtml
+2018-10-30T20:07:26.1419906-05:00;Thread#15;Info;reports generated
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2018-10-30T20:07:26.1529957-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-10-30T20:07:26.1529957-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Mileidy Franco\source\repos\MyProject.Specs\TestResults\MyProject.Specs_MyProject.Specs_2018-10-30T200709.html'
+2018-10-30T20:07:26.2710534-05:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Mileidy%20Franco\source\repos\MyProject.Specs\TestResults\MyProject.Specs_MyProject.Specs_2018-10-30T200709.log

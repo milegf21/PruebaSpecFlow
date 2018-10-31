@@ -1,0 +1,29 @@
+﻿2018-10-30T19:49:34.2538532-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-10-30T19:49:34.2673769-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Mileidy Franco\source\repos\MyProject.Specs\MyProject.Specs\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-30T19:50:04.3030755-05:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-30T19:50:04.3040662-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Mileidy Franco\source\repos\MyProject.Specs\MyProject.Specs\bin\Debug\MyProject.Specs.dll
+2018-10-30T19:50:04.3040662-05:00;VSTestExecutionThread;Info;Profile: MyProject.Specs
+2018-10-30T19:50:25.5952898-05:00;Thread#14;Info;starting test run
+2018-10-30T19:50:25.7083133-05:00;Thread#14;Info;Discovering target: Default
+2018-10-30T19:50:25.7093143-05:00;Thread#14;Info;Discovering tests from assembly: C:\Users\Mileidy Franco\source\repos\MyProject.Specs\MyProject.Specs\bin\Debug\MyProject.Specs.dll
+Appdomain Disposed
+Test Suite Dump
+#0: MyProject.Specs/MyProject.Specs - 
+#1: Default - 
+#2: MyProject.Specs - 
+#3: Calculator - 
+#4: Add two numbers - TestAssembly:MyProject.Specs/Feature:Calculator/Scenario:Add+two+numbers
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for MyProject.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+T

@@ -1,0 +1,17 @@
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\bin\Debug\example.dll
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\bin\Debug\example.pdb
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\obj\Debug\example.csprojAssemblyReference.cache
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\obj\Debug\example.csproj.CoreCompileInputs.cache
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\obj\Debug\example.csproj.CopyComplete
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\obj\Debug\example.dll
+C:\Users\Mileidy Franco\source\repos\MyProject.Specs\example\obj\Debug\example.pdb

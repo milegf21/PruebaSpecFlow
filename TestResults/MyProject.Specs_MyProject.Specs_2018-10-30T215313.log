@@ -1,0 +1,161 @@
+﻿2018-10-30T21:53:13.2352934-05:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-10-30T21:53:13.2653110-05:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2018-10-30T21:53:13.2653110-05:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Mileidy Franco\source\repos\MyProject.Specs\MyProject.Specs\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-10-30T21:53:13.7804853-05:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-10-30T21:53:13.7804853-05:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Mileidy Franco\source\repos\MyProject.Specs\MyProject.Specs\bin\Debug\MyProject.Specs.dll
+2018-10-30T21:53:13.7804853-05:00;VSTestExecutionThread;Info;Profile: MyProject.Specs
+2018-10-30T21:53:23.1097757-05:00;Thread#15;Info;starting test run
+2018-10-30T21:53:23.1487909-05:00;Thread#15;Info;Discovering target: Default
+2018-10-30T21:53:23.1497899-05:00;Thread#15;Info;Discovering tests from assembly: C:\Users\Mileidy Franco\source\repos\MyProject.Specs\MyProject.Specs\bin\Debug\MyProject.Specs.dll
+Appdomain Disposed
+Test Suite Dump
+#0: MyProject.Specs/MyProject.Specs - 
+#1: Default - 
+#2: MyProject.Specs - 
+#3: Calculator - 
+#4: add  two numbers - TestAssembly:MyProject.Specs/Feature:Calculator/Scenario:add++two+numbers
+#5: subtraction  two numbers - TestAssembly:MyProject.Specs/Feature:Calculator/Scenario:subtraction++two+numbers
+#6: multiply two numbers - TestAssembly:MyProject.Specs/Feature:Calculator/Scenario:multiply+two+numbers
+#7: division two numbers - TestAssembly:MyProject.Specs/Feature:Calculator/Scenario:division+two+numbers
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for MyProject.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0.0s)
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveAlsoEnteredIntoTheCalculator2(70) (0.0s)
+Thread#0:B:When I press add
+Thread#0:T:done: CalculatorSteps.WhenIPressAdd() (0.0s)
+Thread#0:B:Then the result should be 120 on the screen
+Thread#0:T:done: CalculatorSteps.ThenTheResultShouldBeOnTheScreen(120) (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 2.4799126 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0.0s)
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveAlsoEnteredIntoTheCalculator2(70) (0.0s)
+Thread#0:B:When I press subtraction
+Thread#0:T:done: CalculatorSteps.WhenIPressSubtraction() (0.0s)
+Thread#0:B:Then the result should be 20 on the screen
+Thread#0:T:error: Error de Assert.AreEqual. Se esperaba <20>, pero es <-20>. 
+Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #5/0 is finished on thread #0 as Failed within 0.2781605 seconds
+Thread#0: Test #5/1 is started on thread #0
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0.0s)
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveAlsoEnteredIntoTheCalculator2(70) (0.0s)
+Thread#0:B:When I press subtraction
+Thread#0:T:done: CalculatorSteps.WhenIPressSubtraction() (0.0s)
+Thread#0:B:Then the result should be 20 on the screen
+Thread#0:T:error: Error de Assert.AreEqual. Se esperaba <20>, pero es <-20>. 
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #5/1 is finished on thread #0 as Failed within 0.0160061 seconds
+Thread#0: Test #5/2 is started on thread #0
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0.0s)
+Thread#0:B:And I have also entered 70 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveAlsoEnteredIntoTheCalculator2(70) (0.0s)
+Thread#0:B:When I press subtraction
+Thread#0:T:done: CalculatorSteps.WhenIPressSubtraction() (0.0s)
+Thread#0:B:Then the result should be 20 on the screen
+Thread#0:T:error: Error de Assert.AreEqual. Se esperaba <20>, pero es <-20>. 
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/2 is finished on thread #0 as Failed within 0.0140061 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I have entered 5 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(5) (0.0s)
+Thread#0:B:And I have also entered 7 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveAlsoEnteredIntoTheCalculator2(7) (0.0s)
+Thread#0:B:When I press multiply
+Thread#0:T:done: CalculatorSteps.WhenIPressMultiply() (0.0s)
+Thread#0:B:Then the result should be 35 on the screen
+Thread#0:T:done: CalculatorSteps.ThenTheResultShouldBeOnTheScreen(35) (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.011003 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given I have entered 50 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveEnteredIntoTheCalculator(50) (0.0s)
+Thread#0:B:And I have also entered 10 into the calculator
+Thread#0:T:done: CalculatorSteps.GivenIHaveAlsoEnteredIntoTheCalculator2(10) (0.0s)
+Thread#0:B:When I press division
+Thread#0:T:done: CalculatorSteps.WhenIPressDivision() (0.0s)
+Thread#0:B:Then the result should be 5 on the screen
+Thread#0:T:done: CalculatorSteps.ThenTheResultShouldBeOnTheScreen(5) (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0.0210079 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2018-10-30T21:53:26.9822365-05:00;Thread#15;Info;test run finished
+2018-10-30T21:53:26.9842406-05:00;Thread#15;Info;publishing test results
+2018-10-30T21:53:27.1012773-05:00;Thread#15;Info;test results published
+2018-10-30T21:53:27.1012773-05:00;Thread#15;Info;generating reports
+2018-10-30T21:53:27.1502965-05:00;Thread#15;Info;creating 1 report(s)
+2018-10-30T21:53:27.1522957-05:00;Thread#15;Info;generate Report ReportTemplate.cshtml
+2018-10-30T21:53:32.2935993-05:00;Thread#15;Info;reports generated
+Total: 4 (test executions: 6)
+Succeeded: 3
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2018-10-30T21:53:32.3066052-05:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2018-10-30T21:53:32.3066052-05:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Mileidy Franco\source\repos\MyProject.Specs\TestResults\MyProject.Specs_MyProject.Specs_2018-10-30T215313.html'
+2018-10-30T21:53:32.4216459-05:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Mileidy%20Franco\source\repos\MyProject.Specs\TestResults\MyProject.Specs_MyProject.Specs_2018-10-30T215313.log
